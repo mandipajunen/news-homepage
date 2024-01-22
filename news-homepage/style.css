@@ -1,0 +1,349 @@
+body {
+  font-family: 'Inter', sans-serif;
+
+
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 50px;
+
+
+
+}
+
+#wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+
+
+nav {
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-right: 150px;
+
+
+}
+
+main {}
+
+.navlist {
+  display: flex;
+  flex-direction: row;
+  padding-left: 350px;
+
+}
+
+.navitems {
+
+
+  justify-content: space-between;
+  text-decoration: none;
+  list-style: none;
+
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 12px;
+  margin: auto 1px;
+  padding-left: 30px;
+
+
+
+}
+
+.navitems:hover {
+  color: rgb(252, 176, 36);
+}
+
+.logo {
+  height: 30px;
+  width: 45px;
+  padding-left: 65px;
+
+
+}
+
+
+.container {}
+
+.main-container {
+  font-family: 'Inter', sans-serif;
+  padding: 50px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+
+}
+
+.mainread {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.maininfo {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.mainblog {}
+
+
+.headerimg {
+
+  height: 55%;
+  width: 55%;
+
+
+}
+
+.columns {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: space-between;
+  padding-top: 20px;
+  gap: 2px;
+
+
+
+}
+
+.columninfo {
+
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0px;
+  padding-top: 10px;
+
+
+}
+
+
+.first-column {
+  display: flex;
+  flex-direction: row;
+  padding-top: 0px;
+  align-items: center;
+  gap: 10px;
+  padding-right: 0px;
+}
+
+.maintitle {
+  font-weight: 900;
+  font-size: 40px;
+  padding-left: 3px;
+  padding-top: px;
+
+
+
+}
+
+.retroimg {
+  height: 95px;
+  width: 70px;
+  padding: 1px;
+
+
+}
+
+.number {
+  color: rgb(203, 203, 203);
+  font-size: 22px;
+  font-weight: 900;
+  flex-direction: row;
+  margin: auto 1px;
+  padding-bottom: 10px;
+}
+
+
+.subtitle2 {
+
+  font-size: 13px;
+  color: black;
+  font-weight: 900;
+  cursor: pointer;
+  flex-direction: row;
+  margin: auto 1px;
+
+
+
+}
+
+.subtitle2:hover {
+  color: rgb(240, 125, 30);
+}
+
+.bottomtext {
+  color: gray;
+  font-size: 10px;
+  margin-top: 1px;
+  flex-direction: row;
+  padding-top: 10px;
+  padding-bottom: 3px;
+
+}
+
+.middle-column {
+  display: flex;
+  flex-direction: row;
+  padding-top: 0px;
+  align-items: center;
+  gap: 0px;
+  margin: auto 1px;
+  margin-left: -100px;
+
+}
+
+.description {
+  font-size: 11px;
+  padding-right: 35px;
+  letter-spacing: 0px;
+  word-spacing: 2px;
+  line-height: 20px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.readmore {
+  height: 40px;
+  width: 130px;
+  color: white;
+  background-color: rgb(255, 91, 91);
+  border: none;
+  font-family: 'Inter', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 10px;
+  margin: auto 1px;
+  font-size: 9px;
+  font-weight: 900;
+  cursor: pointer;
+  margin-left: 13px;
+
+}
+
+.readmore:hover {
+  background-color: black;
+}
+
+.top10 {
+  height: 95px;
+  width: 70px;
+  padding: 15px;
+}
+
+.last-column {
+  display: flex;
+
+  flex-direction: row;
+  padding-top: 0px;
+  align-items: center;
+  gap: 0px;
+  padding-right: 85px;
+  margin-left: -40px;
+}
+
+.growth {
+  height: 95px;
+  width: 70px;
+  padding: 15px;
+}
+
+.new {
+  grid-column: 1rem;
+  grid-row: 1 span;
+
+
+
+
+}
+
+.line {
+
+  background-color: rgba(161, 161, 161, 0.66);
+  height: 1px;
+  width: 250px;
+  margin-top: 10px;
+
+
+}
+
+.new-container {
+  display: grid;
+  height: 350px;
+  width: 250px;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  float: right;
+  margin-top: -200px;
+  margin-right: 60px;
+
+
+}
+
+.newtitle {
+  font-size: 30px;
+  color: rgb(252, 176, 36);
+  padding: 10px;
+
+}
+
+.newcontents {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.newcontent {
+  display: flex;
+  flex-direction: column;
+
+
+
+}
+
+
+
+.newtext1 {
+  font-size: 11px;
+  margin-top: 6px;
+  padding-bottom: 20px;
+}
+
+.newtext2 {
+  font-size: 11px;
+  margin-top: 8px;
+  padding-bottom: 20px;
+}
+
+.newtext3 {
+  font-size: 11px;
+  margin-top: 8px;
+  padding-bottom: 20px;
+}
+
+
+.subtitle {
+  font-size: 15px;
+  cursor: pointer;
+  margin: 1px;
+}
+
+.subtitle:hover {
+  color: rgb(252, 176, 36);
+}
